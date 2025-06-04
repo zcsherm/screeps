@@ -1,0 +1,17 @@
+Refactor code - June 2025
+Have a better format for tasks.
+I like the idea of using a task manager to handle overarching plans and identifying needs
+2 types: Goals and Tasks
+Goals being where to setup extensions, turrets, road, where to mine etc
+Tasks being mining sources, feeding towers, repairing roads, constructing on spots
+A goal is accomplished via tasks.
+The planner would survey the room and identify immediate goals and longterm goals based on layout and level. It would then prioritize these goals and feed them to another agent: overseer
+The overseer would take these goals in priority, break them down into tasks, and then send these tasks to the task manager.
+The task manager would then assign creeps to each task, monitor each task for status and completion, raise errors when it identifies issues
+The 4th agent would be the monitor. 
+The monitor looks for emergent threats and situations. This might include invasions, dying creeps, dropped resources, destroyed buildings, empty extensions, full containers.
+It would then create tasks linked to these events and feed them to the task manager.
+The 5th agent is the safety
+The safety considers the current resiliency and raises alerts if resilience is compromised.
+Examples: Over production of creeps, running out of energy and unable to replenish stock of creeps (wind down of production, standstill), other agents entering a feedback loop
+A good practice might be to have each order for a new creep be checked by the safety first, try to determine if creating this creep may impact the current supply chain.
