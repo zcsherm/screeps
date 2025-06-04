@@ -1,5 +1,5 @@
-Refactor code - June 2025
--Have a better format for tasks.
+Refactor code - June 2025  
+-Have a better format for tasks.  
 -I like the idea of using a task manager to handle overarching plans and identifying needs
 -2 types: Goals and Tasks
 -Goals being where to setup extensions, turrets, road, where to mine etc
