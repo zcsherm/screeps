@@ -87,11 +87,10 @@ class Task {
         this.capacity = capacity;
     }
 
-    setGoal(RoomObject, action, capacity = null){
+    setGoal(RoomObject, action){
         this.goal = RoomObject.id;
         this.goal_pos = RoomObject.pos;
-        this.goal_action = action;
-        this.capacity = capacity; 
+        this.goal_action = action; 
     }
 
     setServiceType(type){
